@@ -5,8 +5,8 @@ const daysOfWeek = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday',
 
 function days(daysOfWeek){
   
-    console.log(daysOfWeek.length); // prints length of array
-    console.log(daysOfWeek); //prints array
+    return daysOfWeek.length; // prints length of array
+    
 }
 
-days(daysOfWeek); //calls function
+console.log(days(daysOfWeek)); //calls function
