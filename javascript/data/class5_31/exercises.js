@@ -27,10 +27,22 @@
 //   };
 
 
-  //takes array of numbers, prints events
-  function onlyEvens (array){
-        let response = []    
-        for (i = 0; i < array.length; i++) {
+// write a function that takes in an array of numbers and multiplies each number in the array by 5
+// example multiplyArray([1, 6, 10]) --> returns [5, 30, 50]
+
+// write a function that prints the mileage of each of the cars in this array of objects
+// const myCars = [
+   // { make: 'Chevy', model: 'Camaro', year: 2014, mileage: 75000 },
+   // { make: 'Ford', model: 'Mustang', year: 2021, mileage: 8000 },
+   // { make: 'Dodge', model: 'Challenger', year: 2008, mileage: 125000 },
+   // { make: 'Mercedes', model: 'G Wagon', year: 2022, mileage: 500 },
+   // ];
+
+
+//takes array of numbers, prints events
+function onlyEvens (array){
+        let response = [];    
+        for (let i = 0; i < array.length; i++) {
            if(array[i] % 2 == 0){
               response.push(array[i]); 
             }
@@ -40,16 +52,73 @@
    }
 }
 console.log(onlyEvens[1, 3, 6, 8, 10]);
+
+
 // outputs only positive numbers
 function onlyPositive (array) {
-   let response = []
-    for (i = 0; i < array.length; i++) {
+   let posArray = [];
+    for (let i = 0; i < array.length; i++) {
        if(array[i] % 2 > 0){
-         response.push(array[i]);
+         posArray.push(array[i]);
     }
    } 
   {
-   return response
+   return posArray;
   }
 }
 console.log(onlyPositive[-4, -80, 5, 16]);
+
+// write a for loop that prints the odd numbers between 105 and 125
+
+function oddNumbers(allOdds){
+   let oddNums = [];
+   for(let i = 105; i <= 125; i++) {
+      if(allOdds[i] % 2 != 0){
+         allOdds.push(oddNums[i]);
+      }
+   }
+   {
+      return oddNums;
+   }
+}
+
+console.log(oddNumbers[105]);
+
+
+
+// write a function that takes in an array of numbers and multiplies each number in the array by 5
+
+function multiplyArray(num){
+   let mulArray = []
+   for (let i = 0; i < mulArray.length; i++); {
+      if(num[i] * 5){
+         num.push(mulArray[i]);
+      }
+      {
+         return mulArray
+      }
+   }
+}   
+
+console.log(multiplyArray[1,6,10]);
+
+// write a function that prints the mileage of each of the cars in this array of objects
+
+const myCars = [
+   { make: 'Chevy', model: 'Camaro', year: 2014, mileage: 75000 },
+   { make: 'Ford', model: 'Mustang', year: 2021, mileage: 8000 },
+   { make: 'Dodge', model: 'Challenger', year: 2008, mileage: 125000 },
+   { make: 'Mercedes', model: 'G Wagon', year: 2022, mileage: 500 },
+   ];
+
+// myCars.forEach(myCar => {
+//       for (let mileage in myCars)
+      
+//    {
+//       console.log(`mileage: ${myCar.mileage}`)
+//    }
+// });
+for (let i = 0; i < myCars.length; i++) {
+ 
+    console.log(myCars[i].mileage);
+ }
