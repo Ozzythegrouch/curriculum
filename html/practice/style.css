@@ -1,0 +1,28 @@
+.y-wrap{
+    margin: 0 auto;
+    width: 90%;
+}
+/*
+BEM ( Block Element Modifier)
+*/
+.stats-block{
+    margin:50px;
+}
+.stats-block__stats{
+    float: left;
+}
+.stats-block__stats--title{
+    width: 30%;
+}
+.stats-block__stats--data{
+    width: 70%;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.header-line{
+    background-color: #165e3a;
+    height: 6px;
+}
