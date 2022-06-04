@@ -41,7 +41,7 @@
 
 //takes array of numbers, prints events
 function onlyEvens (array){
-        let response = [];    
+        let response = evenNum[i];    
         for (let i = 0; i < array.length; i++) {
            if(array[i] % 2 == 0){
               response.push(array[i]); 
