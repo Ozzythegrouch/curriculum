@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{   
+    font-size: 3.5rem; /* m is relative to the size of the page. 1rem is default */
+    margin-bottom: 0; /* */
+}
+
+main h2{
+    margin-top: 0;
+}
+
+header p{
+    margin: 12px 0 20px; /*targeting header p tag only, doesn't modify other p tags in code */
+}
+
+main p,
+main li{
+    line-height: 1.4rem; /*default font size is 16px*/
+}
+
+main p{
+    margin-top: 0;
+}
+
+.y-wrap{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.stats-block{
+    margin: 14px 0;
+    
+}
+
+.stats-block__stats{
+    float: left;
+}
+
+.stats-block__stats--title{
+    width: 30%;
+}
+
+.stats-block__stats--data{
+    width: 70%;
+}
+
+.bar{
+    height: 14px;
+}
+
+.subheading {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.date {
+    text-transform: uppercase;
+}
+
+.date ~ div span {
+    font-weight: 700px;
+}
+
+.color-bar{
+    background-color: #33c6b3
+}
+
+.color-body-text{
+    color: #414141;
+}
+
+.color-heading{
+    color: #010101;
+}
+
+.subheading--dark-gray{
+    color: #242424;
+}
+
+.color-gray{
+    color: #bababa;
+}
+
+.cf:before,
+.cf:after {
+    content: "";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+/*
+
+BEM (Block-Element-Modifier)
+
+Parent element is the block
+Child is element in the blcok
+
+block__element--modifier
+
+When you say float left you're removing it from the flow
+
+Have to restate and then modify
+
+*/
