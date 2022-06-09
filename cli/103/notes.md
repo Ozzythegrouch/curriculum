@@ -5,6 +5,6 @@
 Leave the contents of this file empty
 
 ```
-touch ~/ .hushprofile
+touch ~/ .hushlogin
 
 ```
