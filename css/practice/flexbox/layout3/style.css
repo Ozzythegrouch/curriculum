@@ -1,0 +1,60 @@
+body {
+    color: white;
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    margin: 26px 0;
+}
+
+header,
+footer {
+    background-color: #02bfb1;
+    padding: 20px 0;
+    
+}
+
+.container{
+    background-color: #c3ebf9;
+    padding: 12px;
+}
+
+.article {
+    /*block level element */
+    background-color: #fbb04c;
+    display: flex;
+    flex-direction: column;
+    /* default is row */
+    flex-grow: 1;
+    justify-content: flex-end;
+    /* flex end works based off direction of column or row */
+    padding: 18px;
+}
+
+.article__title {
+    margin-bottom: 14px;
+}
+
+.aside {
+    /*if you are a child of a flex container its going to make you the same height and width*/
+    background-color: #6edb6e;
+    margin-right: 26px;
+    padding: 170px 0;
+    width: 232px;
+}
+
+.images {
+    /* border: 1px solid crimson; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.images__image {
+    background-color: #fcd249;
+    padding: 70px 30px;
+
+}

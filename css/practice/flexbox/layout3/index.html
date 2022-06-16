@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>Header</header>
+        <main class="main">
+            <aside class="aside">Aside</aside> <!--aside and article are siblings-->
+            <article class="article"> <!--this class does not have to be carried all the way down-->
+                <div class="article__title">Article</div>
+                <div class="images"> <!--this is a block, these blocks are related-->
+                    <div class="images__image">Image</div> <!--this is an element-->
+                    <div class="images__image">Image</div> <!--BEM has only one set of double underscores-->
+                    <div class="images__image">Image</div> <!--text is setting width of image-->
+                </div>    
+            </article>
+        </main> 
+        <footer>Footer</footer>
+    </div    
+</body>
+</html>
