@@ -6,11 +6,12 @@
 }
 
 .numbers div {
-    background-color: #ccc;
+    background-color: #eee;
     cursor: pointer;
     flex: 0 1 16%;
+    font-size: 1.5rem;
     margin: 10px;
-    padding: 20px;
+    padding: 18px;
     text-align: center;
 }
 
@@ -27,14 +28,17 @@
 .operators{
     display: flex;
     font-size: 2rem;
+    justify-content: space-between;
+    
 }
 
 .operators div{
     background-color: aliceblue;
     cursor: pointer;
-    flex: 0 1 20%;
-    margin: 10px;
-    padding: 20px;
+    flex: 0 1 30%;
+    margin: 12px 0;
+    max-width: 100px;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -51,4 +55,19 @@
 
 .keypad {
     display: flex;
+}
+
+.container {
+    border: 1px solid #ddd;
+    color: #333;
+    font-family: sans-serif;
+    height: 520px;
+    margin: 20px auto;
+    padding: 20px 0;
+    width: 500px;
+}
+
+.y-inner-wrap{
+    margin: 0 auto;
+    width: 456px;
 }
