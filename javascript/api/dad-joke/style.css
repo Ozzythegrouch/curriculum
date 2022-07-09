@@ -1,0 +1,61 @@
+body{
+    background-color: darkolivegreen;
+}
+.likes-button{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    
+}
+
+.boo-button{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    
+}
+
+.container{
+   
+    background-color: rgb(103, 174, 110);
+    border: 2px solid black;
+    min-width: 482px;
+    max-width: 482px;
+    position: absolute;
+    top: 25%;
+}
+
+.dadTitle{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.joke-button{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.counterEmotion{
+    align-items: center;
+    display: flex;
+    justify-content: row;
+}
+.likes {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.boo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.joke-container{
+    font-family:monospace ;
+}
