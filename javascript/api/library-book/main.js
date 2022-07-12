@@ -22,20 +22,20 @@ const getBooks = async () => {
         bookInfo.className = 'book-container'
         bookInfo.innerHTML =
         `<div class="book-book">
-            <div class= "book-front">📚
+            <div class= "book-front">
                 <img src= ${image}></img>
             </div>
             <div class= "book-content">
                 <h3>${title}</h3>
                 <h4>${author}</h4>
-                <p>${description}</p>
+                <div class = "book-des">
+                    <p>${description}</p>
+                </div>
             </div> 
         </div>
             
         `
-       
         contentContainer.append(bookInfo)
-
     }
 } 
 
