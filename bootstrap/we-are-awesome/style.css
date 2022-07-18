@@ -1,0 +1,76 @@
+html {
+    height: 98%;
+}
+
+body {
+    height: 98%; margin: 0; padding: 0;
+}
+
+div {
+    height: 98%; float: center;
+    flex-direction: column;
+    display: flex;
+}
+
+hr {
+    border-top: 3px solid black;
+}
+
+.container{
+    border: 2px solid black;
+}
+
+
+
+.collapse navbar-collapse{
+    align-items:center;
+    display: flex;
+}
+
+.card-footer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.awesome-block{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.awesome-list{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.awesome-list-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.awesome-list-items-1{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.awesome-list-items-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.awesome-list-items-3{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.awesome-picture{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
