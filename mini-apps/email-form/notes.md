@@ -1,11 +1,14 @@
 # Server
 
-## 
+## package JSON
+
+- package json
+determines content of the modules
 
 - npm innit -y
 writes json file
 
-- npm install express , npm i espress
+- npm install express , npm i express
 
 - "dependencies"
     "express", says what version was worked on
