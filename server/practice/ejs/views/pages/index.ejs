@@ -8,10 +8,11 @@
     <link rel = "stylesheet" href = "./css/style.css">
 </head>
 <body>
-    Hello World
-    <%- include('../partials/header', isAuthenticated) %>
-    <%- include(`../partials/main/${template}`) %>
-    <%- include('../partials/footer') %>
+    <div class = "y-sticky">
+        <%- include('../partials/header', isAuthenticated, navs) %>
+        <%- include(`../partials/main/${template}`) %>
+        <%- include('../partials/footer') %>
+    </div>
     <script src = "./js/main.js"></script>
 </body>
 </html>

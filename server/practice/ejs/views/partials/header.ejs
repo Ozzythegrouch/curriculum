@@ -1,7 +1,14 @@
 <header>
-    <% if (isAuthenticated) { %>
-        <p>You are logged in!</p> 
-    <% } else { %>
-        <button id = "auth">Login</button>
-    <%  } %> 
+    <div class = "y-wrap">
+        <% if (isAuthenticated) { %>
+            <button id = "auth" data-type="logout">Logout</button>
+        <% } else { %>
+            <button id = "auth" data-type="login">Login</button>
+        <%  } %> 
+        <ul class="navs">
+            <% navs.forEach(nav => { %>
+                <li><a href = "<%= nav %>"><%= nav %></a></li>
+            <% }) %>
+        </ul>
+    </div>
 </header>

@@ -1,12 +1,17 @@
-const loginBtn = document.getElementById('auth')
+const authBtn = document.getElementById('auth')
 
-loginBtn.addEventListener('click', e => {
-    fetch('/login', {
-        
-        method: 'POST',
-        body: JSON.stringify({login: true}),
+authBtn.addEventListener('click', e => {
+    const type = e.target.dataset.type
+    const body = type === 'login' ? JSON.stringify({login: true}) : null
+    const TYPE = type === 'login' ? 'POST' : 'GET'
+
+    fetch(`/${type}`, {
+        method: TYPE,
+        body,
         headers: {
             'Content-Type' : 'application/json'
         }
-    }).then(data => data.json()).then(response => console.log(response))
+    }).then(data => data.json()).then(response => {
+        window.location = response.redirectURL
+    })
 })
