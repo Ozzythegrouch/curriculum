@@ -7,7 +7,7 @@
         <%  } %> 
         <ul class="navs">
             <% navs.forEach(nav => { %>
-                <li><a href = "<%= nav %>"><%= nav %></a></li>
+                <li><a href="<%= nav.toLowerCase() %>"><%= nav %></a></li>
             <% }) %>
         </ul>
     </div>

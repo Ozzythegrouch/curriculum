@@ -31,3 +31,15 @@ server.listen(8080, () => {
 server.get('/welcome', (req,res) => {
     res.render('pages', {template: 'gallery', isAuthenticated: true})
 })
+
+server.get('/About', (req,res) => {
+    res.render('pages', {template: 'about', isAuthenticated: true})
+})
+
+server.get('/Contact', (req,res) => {
+    res.render('pages', {template: 'contact', isAuthenticated: true})
+})
+
+server.get('/Gallery', (req,res) => {
+    res.render('pages', {template: 'gallery', isAuthenticated: true})
+})
