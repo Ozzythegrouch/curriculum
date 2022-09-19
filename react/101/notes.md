@@ -19,9 +19,9 @@
 - It looks like <13>HTML but it is not <14>HTML
 - Each element in JSX must have either a corresponding closing tag or <15>self-closing tag
 - JSX can have only one <16>parent element; all others must be nested inside of it
-- Components are exposed and consumed for use through <17>import and <18>export statements; this makes it quite easy to pass them around as needed
+- Components are exposed and consumed for use through <17>`import` and <18>`export `statements; this makes it quite easy to pass them around as needed
 - Elements within JSX have <19>props, short for properties, but they look like HTML attributes
-- Some of them are actually identical to HTML attributes, such as <20>id, but others are different, such as <21>className instead of class.
+- Some of them are actually identical to HTML attributes, such as <20>`id`, but others are different, such as <21>`className` instead of class.
 - Unlike the functions you have learned about up until now, a component is not called but is <22>rendered instead
 - Rendering happens when the component is included within the <23> of another component
 - The components form a tree whose root is contained within React's <24>render method of the <25>
@@ -29,12 +29,12 @@
 - The extension of the filename can be .js or .jsx but <28>.jsx is preffered
 - A component's return is not followed by any <29>data type or <30>data structure that you have previously learned about
 - if the component returns a <31>single element, it is written on one line
-```javascript
+```jsx
 return <p>Hello World</p>;
 ```
 
 - However, a multi-line return needs <32>parantheses
-```javascript
+```jsx
 return{
     <div>
         <p>Hello</p>
@@ -42,3 +42,38 @@ return{
     </div>
 };
 ```
+--
+
+#### Key terms and phrases
+- a capital letter
+- capitalized
+- `className`
+- components
+- data structure
+- data type
+- entry point
+- entry point
+- `export`
+- Facebook
+- functions
+- HTML
+- HTML
+- `id`
+- `import`
+- JavaScript XML
+- .jsx
+- JSX
+- JSX
+- library
+- manipulate
+- package.json
+- parent
+- parentheses
+- props
+- render
+- render
+- rendered
+- self-closing
+- shadow DOM
+- single element
+- src
