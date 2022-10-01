@@ -1,0 +1,21 @@
+{
+    "question": "Which country gifted the Statue of Liberty to the United States?",
+    "options": [
+      {
+        "option": "England",
+        "isCorrect": false
+      },
+      {
+        "option": "France",
+        "isCorrect": true
+      },
+      {
+        "option": "Germany",
+        "isCorrect": false
+      },
+      {
+        "option": "Italy",
+        "isCorrect": false
+      }
+    ]
+  }
