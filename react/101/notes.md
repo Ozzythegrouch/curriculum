@@ -20,10 +20,10 @@
 - Each element in JSX must have either a corresponding closing tag or <self-closing> tag
 - JSX can have only one <parent> element; all others must be nested inside of it
 - Components are exposed and consumed for use through <`import`> and <`export`>statements; this makes it quite easy to pass them around as needed
-- Elements within JSX have <props>, short for properties, but they look like HTML attributes
+- Components within JSX have <props>, short for properties, but they look like HTML attributes
 - Some of them are actually identical to HTML attributes, such as <`id`>, but others are different, such as <`className`> instead of class.
 - Unlike the functions you have learned about up until now, a component is not called but is <rendered> instead
-- Rendering happens when the component is included within the <23> of another component
+- Rendering happens when the component is included within the <JSX> of another component
 - The components form a tree whose root is contained within React's <render> method of the <entry point>
 - Each component name in React must begin with <capital letter> but the filename itself does not have to be <capitalized>
 - The extension of the filename can be .js or .jsx but <.jsx> is preffered
