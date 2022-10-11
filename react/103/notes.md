@@ -19,7 +19,7 @@ greeting('Andrea');
 - Under the hood, React passes the props to a component on an object, usually called `props`, although you could name it whatever you want
 - In order for the component to access the props being sent to it, it must `capture` the passed-in `props` object
 - To save writing some code, you can also `destructure` the object with a set of `curly braces`
-- Once captured, a prop value can be used within a component by wrapping its corresponding `parameter` within a set of curly braces
+- Once captured, a prop value can be used within a component by wrapping its corresponding `name` within a set of curly braces
 - Below is a React `Greeting` component
 ```jsx
 function Greeting(`props`) {
