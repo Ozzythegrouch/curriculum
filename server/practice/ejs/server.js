@@ -30,10 +30,12 @@ server.listen(8080, () => {
 
 server.get('/welcome', (req,res) => {
     res.render('pages', {template: 'gallery', isAuthenticated: true})
+    res.render('pages', {template: 'landing', isAuthenticated: false, navs})
 })
 
 server.get('/About', (req,res) => {
     res.render('pages', {template: 'about', isAuthenticated: true})
+    res.render('pages', {template: 'landing', isAuthenticated: false, navs})
 })
 
 server.get('/Contact', (req,res) => {
